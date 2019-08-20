@@ -1,11 +1,20 @@
 const path = require('path');
 
-module.exports = {
-  mode: 'production',
+const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    libraryTarget: 'umd',
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: 'babel-loader',
+        exclude: /node_modules/
+      }
+    ]
   }
-};
+}
+
+module.exports = config;
