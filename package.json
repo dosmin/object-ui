@@ -1,0 +1,19 @@
+{
+  "name": "object-ui",
+  "version": "1.0.0",
+  "description": "Object-based React component library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosmin/object-ui.git"
+  },
+  "author": "Michelle Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dosmin/object-ui/issues"
+  },
+  "homepage": "https://github.com/dosmin/object-ui#readme"
+}
