@@ -2,8 +2,9 @@
   "name": "object-ui",
   "version": "1.0.0",
   "description": "Object-based React component library",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
