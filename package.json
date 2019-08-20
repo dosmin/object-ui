@@ -2,8 +2,9 @@
   "name": "object-ui",
   "version": "1.0.0",
   "description": "Object-based React component library",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/dosmin/object-ui/issues"
   },
-  "homepage": "https://github.com/dosmin/object-ui#readme"
+  "homepage": "https://github.com/dosmin/object-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
 }
